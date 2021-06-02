@@ -9,13 +9,12 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <h1 class="title">PASSWORD GENERATOR</h1>
-    <h3 class="password-display" id="passwordDisplay"></h3>
+    <h1 class="title">PASSWORD GENERATOR</h1><input type="text">
     <form id="passwordGeneratorForm" class="form">
     <label for="characterAmountNumber">Number Of Characters</label>
      <div class="character-amount-container">
         <input type="range" min="1" max="50" value="10" id="characterAmountRange">
-        <input class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+        <input type="text"class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
        </div> 
 
        <label for="includeUppercase">Include Uppercase</label>
@@ -23,6 +22,7 @@
  
        <label for="includeNumbers">Include Numbers</label>
        <input type="checkbox" id="includeNumbers">
+        
  
        <label for="includeSymbols">Include Symbols</label>
        <input type="checkbox" id="includeSymbols"> 
